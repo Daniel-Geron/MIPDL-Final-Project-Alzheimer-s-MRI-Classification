@@ -18,8 +18,8 @@ Our model automatically classifies an input MRI scan into one of four diagnostic
 By leveraging Transfer Learning via the **ResNet50** architecture, coupled with advanced Hyperparameter Optimization (HPO) and targeted fine-tuning, the final model achieves a mathematically unbiased **97.34% diagnostic accuracy** on a strictly quarantined test set.
 
 ## 🗂️ Repository Structure
-* `MIPDL_Project_ResNet50_Daniel_Geron_Amit_Cohen.ipynb`: The primary, fully annotated Google Colab notebook containing the end-to-end pipeline (Data Ingestion, Preprocessing, HPO, ResNet50 Training, Fine-Tuning, and Evaluation).
-* `ResNet18_Experiment.ipynb` *(or your exact file name)*: An auxiliary notebook detailing our preliminary architectural experiments using the lighter **ResNet18** model. This experiment served as our baseline (yielding 75.0% accuracy) and justified the necessity of upgrading to the deeper ResNet50 network to minimize false negatives in medical diagnostics.
+* `MIPDL_FINAL Project github.ipynb`: The primary, fully annotated notebook containing the end-to-end pipeline (Data Ingestion, Preprocessing, HPO, ResNet50 Training, Fine-Tuning, and Evaluation).
+* `MIPDL_Project_ResNet18.ipynb` *(or your exact file name)*: An auxiliary notebook detailing our preliminary architectural experiments using the lighter **ResNet18** model. This experiment served as our baseline (yielding 75.0% accuracy) and justified the necessity of upgrading to the deeper ResNet50 network to minimize false negatives in medical diagnostics.
 * `README.md`: Project documentation.
 
 ## ⚙️ Methodology & Pipeline
